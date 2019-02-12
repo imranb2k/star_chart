@@ -1,4 +1,4 @@
-package com.ibapp.service.persistance.domain.model;
+package com.ibapp.domain.model;
 
 import java.util.Date;
 
