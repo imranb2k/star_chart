@@ -1,5 +1,3 @@
-com/ibapp/service/domain/model/User.class
-com/ibapp/service/persistance/utils/IbatisSqlSessionFactory.class
-com/ibapp/utils/properties/StarChartPropertiesProvider.class
-com/ibapp/utils/exceptions/Exceptions.class
+com/ibapp/service/services/InMemoryUserService.class
+com/ibapp/domain/model/User.class
 com/ibapp/service/persistance/UserDAO.class

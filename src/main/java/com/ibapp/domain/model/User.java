@@ -1,13 +1,18 @@
 package com.ibapp.domain.model;
 
-import java.util.Date;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import java.time.LocalDateTime;
+
+@Entity
 public class User {
 
+    @Id
     private Long id;
     private String name;
     private Integer age;
-    private Date dateCreated;
+    private LocalDateTime dateCreated;
 
     public User() {
     }
@@ -15,7 +20,7 @@ public class User {
     public User(Long id,
                 String name,
                 Integer age,
-                Date dateCreated)
+                LocalDateTime dateCreated)
     {
         this.id = id;
         this.name = name;
@@ -47,11 +52,11 @@ public class User {
         this.age = age;
     }
 
-    public Date getDateCreated() {
+    public LocalDateTime getDateCreated() {
         return dateCreated;
     }
 
-    public void setDateCreated(Date dateCreated) {
+    public void setDateCreated(LocalDateTime dateCreated) {
         this.dateCreated = dateCreated;
     }
 }
